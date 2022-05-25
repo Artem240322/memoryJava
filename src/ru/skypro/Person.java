@@ -2,25 +2,42 @@ package ru.skypro;
 
 public class Person {
 
-    public Person(String alla, String pugacheva) {
+    private String name;
+    private String Surname;
+    public Person(String name; String surname) {
+        this.name = name;
+        this.name = Surname;
     }
 
-    public static void main(String[] args) {
-        Person person = new Person("Alla", "Pugacheva");
-        chargeValue(person);
-        System.out.println(person);
+    public String getName() {
+        return name;
     }
-
-
-    private static void chargeValue(Person value) {
-        value.setNeme("Maxsim");
-        value.setSurname("Galkin");
+    public void setSurname(String name) {
+        this.name = name;
     }
-
-    private void setSurname(String galkin) {
+    public String getSurname() {
+        return Surname;
     }
-
-    private void setNeme(String maxsim) {
+    public void setSurname(String surname) {
+        this.surname;
     }
+    public String getName(){
+        return name;}
 
+    public void setName(String name) {
+        this.name = name;
+    }
+    public String getSurname(){
+        return surname; }
+    public void setSurname(String Surname) {
+        this.surname = surname;}
+
+    @Override
+    public String toString() {
+        return "Person{" +
+                "name='" + name+ '\'' +
+                ", surname='" + surname+ '\'' +
+                '}';
+    }
 }
+

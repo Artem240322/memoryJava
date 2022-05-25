@@ -48,8 +48,24 @@ public class Main {
         changeValue(value.length);
         System.out.println(Arrays.toString(new Integer[]{value.length}));
     }
+
     private static void chengValue(int[] value) {
-        value = new int[] {1, 2};
+        value = new int[]{1, 2};
+
+    }
+
+
+    /// Задача 9-10
+
+    public static void main(String[] args) {
+        Person person = new Person("Alla", "Pugacheva");
+        chargeValue(person);
+        System.out.println(person);
+    }
+
+    private static void chargeValue(Person value) {
+        value.setNeme("Maxsim");
+        value.setSurname("Galkin");
 
     }
 }
