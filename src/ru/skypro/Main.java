@@ -16,8 +16,6 @@ public class Main {
     }
 
 
-
-
     // задача 6 (2)
     public static void String(String[] args) {
         Integer value = 33;
@@ -31,21 +29,34 @@ public class Main {
     }
 
 
-
-
     /// Задача 7 (3)
     protected static void mainNew(String[] args) {
         Integer[] value = {3, 4};
         changeValue(value.length);
         System.out.println(Arrays.toString(new Integer[]{value.length}));
     }
+
     private static void Integer(Integer[] value) {
         value[0] = 99;
     }
-}
 
 
     /// Задача 8 (4)
+
+    protected static void mainGo(String[] args) {
+        int[] value = {3, 4};
+        changeValue(value.length);
+        System.out.println(Arrays.toString(new Integer[]{value.length}));
+    }
+    private static void chengValue(int[] value) {
+        value = new int[] {1, 2};
+
+    }
+
+    /// Задача 9 (5)
+
+
+}
 
 
 
