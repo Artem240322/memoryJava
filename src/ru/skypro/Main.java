@@ -52,10 +52,6 @@ public class Main {
         value = new int[] {1, 2};
 
     }
-
-    /// Задача 9 (5)
-
-
 }
 
 
