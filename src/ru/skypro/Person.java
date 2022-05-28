@@ -4,7 +4,7 @@ public class Person {
 
     private String name;
     private String Surname;
-    public Person(String name; String surname;) {
+    public Person(String name, String pugacheva; String surname;) {
         this.name = name;
         this.name = Surname;
     }
@@ -29,6 +29,7 @@ public class Person {
     }
     public String getSurname(){
         return surname; }
+
     public void setSurname(String Surname) {
         this.surname = surname;}
 
