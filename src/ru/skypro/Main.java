@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class Main {
     // задача 5 (1)
-   public static void main(String args) {
+    public static void main(String args) {
         int value = 33;
         changeValue(value);
         System.out.println(value);
@@ -53,22 +53,8 @@ public class Main {
         value = new int[]{1, 2};
 
     }
-
-
-    /// Задача 9-10
-
-    public static void main(String[] args) {
-        Person person = new Person("Alla","Pugacheva");
-        chargeValue(person);
-        System.out.println(person);
-    }
-
-    private static void chargeValue(Person value) {
-        value.setNeme("Maxsim");
-        value.setSurname("Galkin");
-
-    }
 }
+
 
 
 
