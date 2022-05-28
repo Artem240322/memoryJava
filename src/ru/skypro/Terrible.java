@@ -2,7 +2,7 @@ package ru.skypro;
 
 public class Terrible {
 
-    public static void main(String[] args) {
+    public static void Terrible(String[] args) {
         Person person = new Person("Alla","Pugacheva");
         chargeValue(person);
         System.out.println(person);

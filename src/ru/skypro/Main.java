@@ -15,7 +15,6 @@ public class Main {
 
     }
 
-
     // задача 6 (2)
     public static void String(String[] args) {
         Integer value = 33;
@@ -28,7 +27,6 @@ public class Main {
 
     }
 
-
     /// Задача 7 (3)
     protected static void mainNew(String[] args) {
         Integer[] value = {3, 4};
@@ -39,7 +37,6 @@ public class Main {
     private static void Integer(Integer[] value) {
         value[0] = 99;
     }
-
 
     /// Задача 8 (4)
 
